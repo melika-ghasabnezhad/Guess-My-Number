@@ -51,7 +51,7 @@ header {
   justify-content: space-around;
 }
 .guess {
-  background-color: #222;
+  background-color: inherit;
   border: 2px solid #eee;
 color: #eee;
   font-family: "Press Start 2P", sans-serif;
