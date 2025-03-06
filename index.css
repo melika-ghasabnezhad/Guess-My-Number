@@ -38,6 +38,12 @@ header {
   padding: 25px;
   border: 1px solid #eee;
 }
+.btn-check {
+  font-family: "Press Start 2P", sans-serif;
+  background-color: #eee;
+  padding: 25px;
+  border: 1px solid #eee;
+}
 .title-header {
   text-align: center;
   margin-top: 30px;
@@ -85,4 +91,59 @@ color: #eee;
     margin-bottom: 2rem;
     font-size: 15px;
   }
-  
+  .label-highscore{
+    margin-bottom: 2rem;
+    font-size: 15px;
+  }
+  @media screen and (max-width:500px) {
+    .nav{
+      display:flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .between{
+      font-size: 10px;
+      margin-left: 15px;
+      text-align: center;
+      margin-top: 17px;
+    }
+    .btn{
+      padding: 17px;
+      text-align: center;
+      
+    }
+    .btn-check{
+      margin-left: 20px;
+      padding: 17px;
+    }
+    .title-header {
+      text-align: center;
+      margin-top: 24px;
+      font-size: 20px;
+    }
+    .guess{
+      width: 15rem;
+     margin-left: 20px;
+     font-size: 3rem;
+    }
+    .number{
+      width: 13rem;
+    }
+    .message {
+      margin-bottom: 6rem;
+      height: 2.5rem;
+      font-size: 12px;
+      padding-left: 25px;
+      
+    }
+    .label-score{
+      margin-bottom: 2rem;
+    font-size: 10px;
+    padding-left: 25px;
+    }
+    .label-highscore{
+      margin-bottom: 2rem;
+    font-size: 10px;
+    padding-left: 25px;
+    }
+  }

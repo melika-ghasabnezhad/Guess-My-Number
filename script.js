@@ -8,7 +8,7 @@ const displayMessage = function (message) {
   document.querySelector(".message").textContent = message;
 };
 
-document.querySelector(".check").addEventListener("click", function () {
+document.querySelector(".btn-check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
   console.log(guess, typeof guess);
 
@@ -34,6 +34,7 @@ document.querySelector(".check").addEventListener("click", function () {
       // document.querySelector('.message').textContent = '💥 You lost the game!';
       displayMessage('💥 You lost the game!');
       document.querySelector('.score').textContent = 0;
+      document.querySelector("body").style.backgroundColor = "#c41b1b";
     }
   }
   /*} else if (guess > secretNumber) {
